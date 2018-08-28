@@ -6,13 +6,13 @@
   "license": "Apache-2.0",
   "main": "src/salesforce-client",
   "dependencies": {
-    "request": "~2.83.0",
+    "request": "^2.88.0",
     "underscore": "~1.8.3"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "nock": "^9.1.6",
-    "should": "^13.2.1"
+    "mocha": "^5.2.0",
+    "nock": "^9.6.1",
+    "should": "^13.2.3"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/pozil/salesforce-node-client",
   "engines": {
-    "node": "6.2.x"
+    "node": ">=6.2.x"
   }
 }
