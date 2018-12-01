@@ -87,7 +87,7 @@ const sfdcConfig = {
 };
 
 // Instantiate Salesforce client with configuration
-const sfdcClient = new SalesforceClient(sfdcConfig);
+const sfdc = new SalesforceClient(sfdcConfig);
 ```
 
 **Option 2: instantiating the client with Node.js environment variables**
@@ -99,7 +99,7 @@ const SalesforceClient = require('salesforce-node-client');
 
 // Instantiate Salesforce client with Node.js environment variables.
 // It's your responsibility to set those ahead of this call or you will get an error.
-const sfdcClient = new SalesforceClient();
+const sfdc = new SalesforceClient();
 ```
 
 
