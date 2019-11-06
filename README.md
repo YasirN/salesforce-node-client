@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/pozil/salesforce-node-client.svg?branch=master)](https://travis-ci.org/pozil/salesforce-node-client)
 
+⚠️ This project is deprecated and archived. Please use [JSForce](https://github.com/jsforce/jsforce) as an alternative. ⚠️
+
 # Salesforce Node Client
 
 **Table of Content**
